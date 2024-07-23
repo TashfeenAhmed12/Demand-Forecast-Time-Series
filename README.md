@@ -24,7 +24,9 @@ The time series data was decomposed into three components:
 
 ### Stationarity Test
 The Augmented Dickey-Fuller test was performed to check if the time series data is stationary. Stationarity is crucial for many time series forecasting models, including ARIMA.
+![image](https://github.com/user-attachments/assets/7db4bece-1256-4972-9c3f-97ada17bdf92)
 
+The result of the Dickey-Fuller test provides strong evidence that the time series is stationary. This is crucial because many time series forecasting models, such as ARIMA, require the data to be stationary to provide reliable and meaningful predictions. Stationarity implies that the statistical properties of the series such as mean, variance, and autocorrelation are constant over time, which simplifies the modeling process.
 ### Modeling
 
 #### ARIMA Model
@@ -81,8 +83,6 @@ The ARIMA model outperformed the Prophet model in terms of Mean Squared Error (M
 ![image](https://github.com/user-attachments/assets/7fe6e469-2a57-483f-9e8a-6e5ca2e17106)
 
 
-![image](https://github.com/user-attachments/assets/501c2ae6-528a-4036-9215-06ec058ed213)
 
-The result of the Dickey-Fuller test provides strong evidence that the time series is stationary. This is crucial because many time series forecasting models, such as ARIMA, require the data to be stationary to provide reliable and meaningful predictions. Stationarity implies that the statistical properties of the series such as mean, variance, and autocorrelation are constant over time, which simplifies the modeling process.
 
 
