@@ -49,7 +49,8 @@ The Prophet model by Facebook was also used for forecasting. The data was reform
 ### Forecast
 Both ARIMA and Prophet models were used to forecast the demand for the next 21 days. The ARIMA model performed better with a lower MSE.
 
- 
+ ![image](https://github.com/user-attachments/assets/72044104-a278-4905-95d5-8a9687811398)
+
 Trend Component:
 This shows the underlying trend in your data. From the plot, we observe spikes which suggest that there are times when sales peak significantly. The trend component is relatively stable except for these peaks.
 Seasonal Component:
@@ -58,7 +59,9 @@ Key Insight: This seasonality must be accounted for in any forecasting models, a
 Residual Component:
 Residuals represent the error of the model or the information not captured by the trend and seasonal components. Ideally, residuals should be randomly scattered around zero, showing no pattern.
 Key Insight: Some significant outliers are visible, suggesting occasional deviations from the predicted values based on trend and seasonality alone. These could be due to unexpected events or anomalies in sales data.
- 
+
+![image](https://github.com/user-attachments/assets/e0893e9f-765b-44e5-a81f-f083134f7ce1)
+
 Arima Plots
 1. Standardized Residuals Plot
 The standardized residuals plot shows the residuals from the model over time, ideally scattered randomly around the zero line without displaying any clear patterns or systematic structures. From the plot I received, while residuals mostly hover around zero, there are noticeable spikes. These spikes suggest occasional large errors, indicating that the model might not capture some specific data points well or that there are outliers affecting the model’s predictions.
